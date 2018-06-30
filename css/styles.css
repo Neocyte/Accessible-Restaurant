@@ -434,12 +434,6 @@ nav h1 a {
 	}
 
 	#reviews-list li {
-	  background-color: #fff;
-	  border: 2px solid #f3f3f3;
-	  margin: 0 0 30px;
-	  overflow: hidden;
-	  padding: 0 20px 20px;
-	  position: relative;
 		border-radius: 10px;
 	}
 
@@ -449,9 +443,6 @@ nav h1 a {
 
 	#reviews-list li p:first-child {
 		font-size: 20px;
-		background-color: #000;
-		color: #fff;
-		border-radius: 10px;
 	}
 
 	#reviews-list li p:nth-child(2),
@@ -461,7 +452,6 @@ nav h1 a {
 
 	#reviews-list li p:nth-child(4) {
 		font-size: 15px;
-		text-align: left;
 	}
 
 	#restaurant-hours td {
@@ -531,6 +521,58 @@ nav h1 a {
 	  padding: 1.5%;
 	  text-align: center;
 	  text-transform: uppercase;
+	}
+
+	#restaurant-name {
+	  margin: 0px 0 30px;
+		font-size: 30pt;
+	}
+
+	#restaurant-img {
+		width: 100%;
+		border-radius: 10px 10px 0 0;
+	}
+
+	#restaurant-address {
+	  font-size: 20pt;
+	  margin: 10px 0px;
+	}
+
+	#restaurant-cuisine {
+		width: 100%;
+	  font-size: 25pt;
+		border-radius: 0 0 10px 10px;
+	}
+
+	#restaurant-container, #reviews-container {
+	  width: 90%;
+	}
+
+	#reviews-container {
+	  padding-bottom: 40px;
+	}
+
+	#reviews-list li p {
+	  margin: 10px 0 10px;
+	}
+
+	#reviews-list li p:first-child {
+		font-size: 20pt;
+	}
+
+	#reviews-list li p:nth-child(2),
+	#reviews-list li p:nth-child(3) {
+		font-size: 18pt;
+	}
+
+	#reviews-list li p:nth-child(4) {
+		font-size: 15pt;
+		text-align: left;
+	}
+
+	#restaurant-hours td {
+		padding: 0 30px;
+		font-size: 15pt;
 	}
 }
 
