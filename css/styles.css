@@ -121,10 +121,15 @@ nav h1 a {
 
 /* ====================== Map ====================== */
 
+#map-container {
+	width: 100%;
+}
+
 #map {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+	overflow: hidden;
 }
 
 /* ===================== Restaurant Filtering ==================== */
@@ -477,7 +482,11 @@ nav h1 a {
 	}
 
 	#maincontent {
-		width: 100%;
+		width: 1000px;
+	}
+
+	#map {
+		height: 600px;
 	}
 
 	.filter-options {
