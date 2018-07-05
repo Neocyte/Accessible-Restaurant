@@ -159,6 +159,12 @@ nav h1 a {
 	padding: 0.5% 1%;
 }
 
+.filter-options label {
+	color: white;
+	font-size: 20px;
+	padding-left: 2%;
+}
+
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
