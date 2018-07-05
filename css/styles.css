@@ -183,7 +183,7 @@ nav h1 a {
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
-  padding: 30px 15px 60px;
+  padding: 30px 15px 30px;
 	display: flex;
   text-align: center;
   flex-wrap: wrap;
