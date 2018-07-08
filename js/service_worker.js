@@ -1,18 +1,3 @@
-// Registers service worker
-if (!navigator.serviceWorker) {
-  return;
-} else {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/service-worker.js').then(function() {
-      // Successful registration
-      console.log('Successful registration of service worker');
-    }).catch(function() {
-      // Failed registration
-      console.log('Failed registration of service worker');
-    });
-  });
-}
-
 // Creates a new cache and stores files into it
 self.addEventListener('install', function(event) {
   event.waitUntil(
