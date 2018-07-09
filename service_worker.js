@@ -32,8 +32,7 @@ self.addEventListener('activate', function(event) {
           return cache.delete(cacheName);
         })
       )
-    }))
-  })
+  }))
 });
 
 // Implements cache items after requests
