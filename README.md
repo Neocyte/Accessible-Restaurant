@@ -15,10 +15,15 @@ This was an opportunity to demonstrate what I learned in responsive design, acce
 ## Instructions
 
 1. Clone the repository
+
 2. `cd` into the root directory
-3. If you have not already, (install)[https://www.python.org/downloads/] the latest version of Python
+
+3. If you have not already, [install](https://www.python.org/downloads/) the latest version of Python
+
 4. Check your version of Python using `python -V`. It should be `Python 3.x`
+
 5. Start local server: `python3 -m http.server 8000`
+
 6. Visit http://localhost:8000
 
 ## Contributing
