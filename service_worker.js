@@ -32,7 +32,7 @@ self.addEventListener('activate', function(event) {
           return cache.delete(cacheName);
         })
       )
-    })
+    }))
   })
 });
 
