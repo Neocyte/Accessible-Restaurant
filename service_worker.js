@@ -30,11 +30,10 @@ self.addEventListener('activate', function(event) {
         }).map(function(cacheName) {
           console.log('Deleting old caches...');
           return cache.delete(cacheName);
-          })
-        )
-      })
+        })
+      )
     })
-  );
+  })
 });
 
 // Implements cache items after requests
