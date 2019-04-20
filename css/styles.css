@@ -180,7 +180,6 @@ nav h1 a:first-child {
 /* ====================== Restaurant Listing ===================== */
 
 #restaurants-list {
-	width: 100%;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
@@ -192,6 +191,10 @@ nav h1 a:first-child {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+section {
+	width: 100%;
 }
 
 #restaurants-list li {
