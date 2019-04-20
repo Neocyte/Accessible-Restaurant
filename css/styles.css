@@ -193,10 +193,6 @@ nav h1 a:first-child {
   text-align: center;
 }
 
-section {
-	width: 100%;
-}
-
 #restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
