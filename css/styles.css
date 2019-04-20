@@ -148,6 +148,7 @@ nav h1 a:first-child {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
 }
 
 .filter-options h2 {
