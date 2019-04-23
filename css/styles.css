@@ -51,12 +51,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 	width: 100%;
   background-color: #f3f3f3;
   min-height: 100%;
-	display: flex;
-  text-align: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #footer {
