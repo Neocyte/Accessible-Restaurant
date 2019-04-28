@@ -265,6 +265,15 @@ nav h1 a:first-child {
   width: 100%;
 }
 
+.inside #maincontent {
+	display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .inside #footer {
   bottom: 0;
   position: absolute;
